@@ -1,0 +1,30 @@
+BEEE <input id=t1 /> <br>
+<br>
+Maths <input id=t2 /> <br>
+<br>
+Chemistry <input id=t3 /> <br>
+<br>
+English <input id=t4 /> <br>
+<br>
+ED <input id=t5 /> <br>
+<br>
+<input type=button value=Submit onclick="xyz()"  /> <br>
+<br>
+<output id=out1 /><br>
+
+
+<script>
+function xyz()
+{
+a=parseInt(t1.value);
+b=parseInt(t2.value);
+c=parseInt(t3.value);
+d=parseInt(t4.value);
+e=parseInt(t5.value);
+f=a+b+c+d+e;
+g=f/5;
+out1.value='Totel Mark is  : ' + f + ' per. ' +g 
+
+
+}
+</script>
