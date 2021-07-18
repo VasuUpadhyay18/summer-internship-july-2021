@@ -1,0 +1,41 @@
+<input id=t1><br>
+<input id=t2><br>
+<input type=button value=+ onclick="Addition()">
+<input type=button value=- onclick="Subtraction()">
+<input type=button value=* onclick="Multiplication()">
+<input type=button value=/ onclick="Division()">
+<p id=p1 ></p>
+<p id=p2 ></p>
+<p id=p3 ></p>
+<p id=p4 ></p>
+<br>
+<script>
+function Addition()
+{
+a=parseInt(t1.value);
+b=parseInt(t2.value);
+c=a+b;
+p1.innerHTML="Addition is : "+ c
+}
+function Subtraction()
+{
+a=parseInt(t1.value);
+b=parseInt(t2.value);
+c=a-b;
+p1.innerHTML="Subtraction is : "+ c
+}
+function Multiplication()
+{
+a=parseInt(t1.value);
+b=parseInt(t2.value);
+c=a*b;
+p1.innerHTML="Multiplication is : "+ c
+}
+function Division()
+{
+a=parseInt(t1.value);
+b=parseInt(t2.value);
+c=a/b;
+p1.innerHTML="Division is : "+ c
+}
+</script>
